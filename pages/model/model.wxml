@@ -1,0 +1,9 @@
+<!--pages/model/model.wxml-->
+<view class="container col sp" >
+    <navigator url="../phonefault/phonefault?serviceid={{item.serviceId}}&title={{item.serviceName}}" wx:for="{{chooseModel}}" wx:key="key">  
+    <view class='father sp'>
+      <image src='{{item.serviceImg}}'></image>
+      <view>{{item.serviceName}}</view>
+    </view>
+  </navigator>
+</view>

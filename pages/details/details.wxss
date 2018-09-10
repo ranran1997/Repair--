@@ -1,0 +1,75 @@
+/* pages/details/details.wxss */
+
+.container {
+  background-color: #fff;
+  padding: 0 30rpx;
+  height: 100%;
+}
+
+.line {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 38rpx;
+  border-bottom: 6rpx solid #b1b1b1;
+  padding-top: 18rpx;
+}
+
+.line view {
+  width: 170rpx;
+  border-bottom: 6rpx solid red;
+}
+
+.demand {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 37rpx;
+  border-bottom: 1rpx solid #a9a9a9;
+  color: #666;
+}
+
+.demand text {
+  color: #000;
+  font-size: 35rpx;
+  margin-left:20rpx;
+}
+
+.demand view {
+  color: #666;
+  font-size: 35rpx;
+}
+.address{
+  padding:20rpx 0;
+font-size: 37rpx;
+  border-bottom: 1rpx solid #a9a9a9;
+  color: #666;
+}
+.address view{
+color: #000;
+margin-top:12rpx;
+line-height:50rpx;
+}
+.taps {
+  font-size: 34rpx;
+}
+
+.fault view {
+  font-size: 36rpx;
+  line-height: 58rpx;
+}
+
+.contact {
+  width: 200rpx;
+  height: 90rpx;
+border:1rpx solid #a9a9a9;
+
+  border-radius: 10rpx;
+  margin-top: 60rpx;
+  margin-left: 68%;
+}
+.info{
+  line-height:46rpx;
+  margin-top:10rpx;
+}
+.contact view {
+  color: #f83f4d;
+}

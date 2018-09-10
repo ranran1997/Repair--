@@ -1,0 +1,46 @@
+<!--pages/details/details.wxml-->
+<view class='container'>
+  <view class='line'>
+    <view>订单信息</view>
+  </view>
+  <view class='demand'>订单编号：
+    <text>{{details.orderDetailslist[0].orderNumber}}</text>
+  </view>
+  <view class='demand'>下单时间：
+    <text>{{time}}</text>
+  </view>
+  <view class='demand'>订单价格：
+    <text>¥ {{price}}</text>
+  </view>
+  <view class='demand'>订单状态：
+    <text>{{state}}</text>
+  </view>
+  <view class='address'>订单地址：
+    <view>
+      <text>上海市{{address}}</text>
+    </view>
+  </view>
+  <view class='line'>
+    <view>维修方案</view>
+  </view>
+  <view class='demand taps'>
+    （旧配回收）严选品质非原厂授权物料
+  </view>
+
+  <view class='line'>
+    <view>设备故障</view>
+  </view>
+  <view class='col demand'>
+    <view>{{serviceName}}</view>
+    <view wx:for="{{fault}}" wx:key="key" class='info'>
+      <view class='type'>{{item.parts.partsName}}</view>
+    </view>
+    <view class='contact'>
+      <view class='jz' bindtap='back'>返回首页</view>
+    </view>
+  </view>
+
+
+
+
+</view>

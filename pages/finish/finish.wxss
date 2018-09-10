@@ -1,0 +1,42 @@
+/* pages/finish/finish.wxss */
+.container{
+  background-color: #fff;
+}
+image{
+  width: 256rpx;
+  height:231rpx;
+  margin: 100rpx 0;
+}
+text{
+margin-bottom:35rpx;
+color: #f83f4d;
+font-size: 42rpx;
+font-weight: bold;
+}
+.wait{
+  font-size: 36rpx;
+}
+.bottom{
+  height:90rpx;
+width:50%;
+display: flex;
+margin-top:100rpx;
+}
+.bottom view{
+background-color: #f83f4d;
+padding:20rpx 30rpx;
+color:#fff;
+border-radius: 10%;
+}
+
+.end{
+width:250rpx;
+height:90rpx;
+background-color: #f83f4d;
+color:#fff;
+border-radius: 10rpx;
+margin-top:90rpx;
+}
+navigator{
+  border:1rpx solid red;
+}

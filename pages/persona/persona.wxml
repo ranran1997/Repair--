@@ -1,0 +1,42 @@
+<!--pages/persona/persona.wxml-->
+<view class='container'>
+  <view>
+    <!-- 背景及头像 -->
+    <view class='top pr'>
+      <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com/image/hai.jpg' mode='scaleToFill'></image>
+      <view class='header'>
+        <image src='{{avatarUrl}}'></image>
+      </view>
+    </view>
+    <view class='gap only'></view>
+    <!-- 订单 -->
+    <view>
+      <navigator class='col sp' url="../order/order">
+        <view class="strip" bindtap="">
+          <view>
+            <image class='icon' src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon33_1@2x.png"></image>
+          </view>
+          <view class='title'>我的订单</view>
+          <image class='arrows' src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon_8.png"></image>
+        </view>
+      </navigator>
+      <!-- <view class='gap'></view> -->
+        <view class="strip" bindtap="calling">
+          <view>
+            <image class='icon' src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon35_1@2x .png"></image>
+          </view>
+          <view class='title'>400客服热线</view>
+          <image class='arrows' src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon_8.png"></image>
+        </view>
+    </view>
+  </view>
+  <!-- 弹框,遮罩层 --> 
+  <view class='black' hidden='{{hide}}'>
+    <view class='shade'></view>
+    <view class='welcome col sp'>
+      <!-- <view>这里是文案</view> -->
+      <view>欢迎登录一盟快修</view>
+      <button bindtap='getUserInfo' open-type='getUserInfo' bindgetuserinfo="bindGetUserInfo">确定</button>
+    </view>
+  </view>
+</view>

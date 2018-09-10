@@ -1,0 +1,111 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='bt advertisement'>
+    <image class="sp" src='https://ym-program.oss-cn-shanghai.aliyuncs.com/image/logo@2x.png'></image>
+    <view class="sp" bindtap="calling">400-811-5111</view>
+  </view>
+  <!-- 轮播图 -->
+  <swiper class='swiper' indicator-dots="true" autoplay="true" interval="3000" circular="true">
+    <swiper-item class="swiper-item1">
+      <image class="slide-image" mode="aspectFill" src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/banner1@2x.png"></image>
+    </swiper-item>
+    <swiper-item class="swiper-item2">
+      <image class="slide-image" mode="aspectFill" src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/banner@2x.png"></image>
+    </swiper-item>
+    <swiper-item class="swiper-item3">
+      <image class="slide-image" mode="aspectFill" src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/banner3@2x.png"></image>
+    </swiper-item>
+  </swiper>
+  <!-- 广告条 -->
+  <view class='ad'>
+    <view class='line sp'>
+      <image src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon24m@2x (1).png"></image>
+      <text>直营品牌</text>
+    </view>
+    <view class='line sp'>
+      <image src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/iconb1_1@2x.png"></image>
+      <text>免费上门</text>
+    </view>
+    <view class='line line3 sp'>
+      <image src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/iconq1_1@2x.png"></image>
+      <text>180天保质</text>
+    </view>
+    <view class='line sp'>
+      <image src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icons1_1@2x.png"></image>
+      <text>修好付费</text>
+    </view>
+  </view>
+  <view class='gap'></view>
+  <!-- 四宫格 -->
+  <view class='box'>
+    <view class='father'>
+      <view class='son'>
+        <navigator class='col sp' url="../model/model">
+          <image src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon7_1@2x.png"></image>
+          <text>iPhone快修</text>
+        </navigator>
+      </view>
+      <view class='son'>
+        <navigator class='col sp' url="../padmodel/padmodel">
+          <image src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon6_1@2x.png"></image>
+          <text>iPad快修</text>
+        </navigator>
+      </view>
+    </view>
+    <view class='father'>
+      <view class='son'>
+        <navigator class='col sp' url="../macmodel/macmodel">
+          <image src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon4_1@2x.png"></image>
+          <text>MacBook维修</text>
+        </navigator>
+      </view>
+      <view class='son'>
+        <navigator class='col sp' url="../system/system">
+          <image src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon5_1@2x.png"></image>
+          <!-- <text>苹果系统安装</text> -->
+          <text>其他维修</text>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class='gap'></view>
+  <view class='bottom'>
+    <view class='row team'>
+      <view></view>
+      <text>工程师团队</text>
+    </view>
+
+    <!-- 工程师合照 -->
+    <!-- <view class='engineerImg'>
+      <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com//image/tupian@2x.png'></image>
+    </view> -->
+    <!-- 一分三 -->
+    <view class="bt second">
+      <view class='secondSon'>
+        <!-- <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com//image/icon01@2x.png'></image> -->
+        <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon02@2x.png'></image>
+      </view>
+      <view class='secondSon'>
+        <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon02_1@2x.png'></image>
+      </view>
+      <view class='secondSon'>
+        <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon03_1@2x.png'></image>
+      </view>
+    </view>
+    <!-- 一分四 -->
+    <view class="bt four">
+      <view class='fourSon'>
+        <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com//image/1@2x.png'></image>
+      </view>
+      <view class='fourSon'>
+        <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com//image/2@2x.png'></image>
+      </view>
+      <view class='fourSon'>
+        <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com//image/3@2x.png'></image>
+      </view>
+      <view class='fourSon'>
+        <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com//image/4@2x.png'></image>
+      </view>
+    </view>
+  </view>
+</view>

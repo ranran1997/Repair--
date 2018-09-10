@@ -1,0 +1,134 @@
+/**index.wxss**/
+
+.container {
+  background-color: #fff;
+}
+
+.advertisement {
+  width: 100%;
+  height: 62rpx;
+  margin-bottom: 15rpx;
+}
+
+.advertisement image {
+  width: 232rpx;
+  height: 62rpx;
+  margin-left: 20rpx;
+}
+
+.advertisement view {
+  margin-right: 20rpx;
+  font-size: 30rpx;
+}
+
+.swiper {
+  width: 100%;
+  text-align: center;
+  height: 370rpx;
+}
+
+swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+
+.ad {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+}
+
+.ad .line {
+  flex: 1;
+  text-align: center;
+}
+.line3{
+margin-right: 20rpx; 
+}
+.line image {
+  width: 38rpx;
+  height: 38rpx;
+   margin-right: 8rpx; 
+   margin-left: 12rpx; 
+}
+
+.line text {
+  font-size: 26rpx;
+  color: #999;
+}
+
+.box {
+  width: 100%;
+  background-color: #fff;
+}
+
+.father {
+  bottom: 0px;
+  display: flex;
+  width: 100%;
+  border-bottom: 2rpx dotted #f5f3f3;
+  border-top: 2rpx dotted #f5f3f3;
+  /* margin-bottom: 10rpx; */
+  height: 100px;
+}
+
+.father .son {
+  flex: 1;
+  text-align: center;
+  border-right: 2rpx solid #f5f3f3;
+}
+
+.son image {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 20rpx;
+  margin-bottom: 18rpx;
+}
+
+.bottom {
+  padding: 25rpx;
+}
+
+.team view {
+  width: 20rpx;
+  height: 46rpx;
+  background-color: #f83f4d;
+  margin-right: 15rpx;
+}
+
+.engineerImg {
+  width: 100%;
+  height: 172rpx;
+  margin: 25rpx 0;
+}
+
+.engineerImg image {
+  width: 100%;
+  height: 100%;
+}
+
+.second {
+  margin-bottom: 30rpx;
+  margin-top: 20rpx;
+}
+
+.secondSon {
+  width: 30%;
+  height: 116rpx;
+}
+
+.secondSon image {
+  width: 100%;
+  height: 100%;
+}
+
+.fourSon {
+  width: 22%;
+  height: 146rpx;
+}
+
+.fourSon image {
+  width: 100%;
+  height: 100%;
+}

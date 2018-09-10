@@ -1,0 +1,104 @@
+/* pages/confirm/confirm.wxss */
+.line {
+  width: 90%;
+  height: 90rpx;
+  border: 1rpx solid #d5d8dd;
+  background-color: #f8f9fa;
+  border-radius: 10rpx;
+  margin-left: 3%;
+  padding-left: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.price text {
+  color: #f83f4d;
+}
+
+.gain .code {
+  width: 50%;
+}
+
+.gain button {
+  width: 36%;
+  height: 82rpx;
+  background-color: #666;
+  margin-bottom: 30rpx;
+  border-radius: 10rpx;
+  color: #fff;
+  font-size:38rpx;
+}
+
+.address view {
+  height: 88rpx;
+  padding: 0 30rpx;
+  border: 1rpx solid #d5d8dd;
+  background-color: #f8f9fa;
+  margin-bottom: 30rpx;
+  border-radius: 10rpx;
+  margin-left: 3%;
+  margin-right: 30rpx;
+}
+.district{
+  width:205rpx;
+}
+.district image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 16rpx;
+  margin-top: 5rpx;
+}
+
+.protocol {
+  padding-left: 30rpx;
+  font-size: 31rpx;
+}
+
+.protocol image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+
+.txt {
+  color: #f83f4d;
+}
+
+.finish {
+  width: 100%;
+  height: 100rpx;
+  margin-top: 40rpx;
+}
+.finish view {
+  width: 250rpx;
+  margin-left: 55%;
+  background-color: #f83f4d;
+  color: #fff;
+  height: 80rpx;
+  border-radius: 10rpx;
+}
+.prompt {
+  width: 520rpx;
+  height: 260rpx;
+  opacity: 0.4;
+  background: #000;
+  border-radius: 8px;
+  position: fixed;
+  left: 50%;
+  margin-left: -260rpx;
+  bottom: 50%;
+  z-index:99;
+}
+
+.prompt image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 54rpx;
+  margin-bottom: 30rpx;
+}
+
+.prompt view {
+  font-size: 40rpx;
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 40px;
+}

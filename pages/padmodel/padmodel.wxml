@@ -1,0 +1,11 @@
+<!--pages/fault/fault.wxml-->
+<view class="container">
+  <view class='logo jz'>
+    <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon23_1@2x.png'></image>
+  </view>
+  <view class='all wrap'>
+    <navigator class='jz' url="../padfault/padfault?serviceid={{item.serviceId}}&title={{item.serviceName}}" wx:for="{{chooseModel}}" wx:key="key">
+      <view>{{item.serviceName}}</view>
+    </navigator>
+  </view>
+</view>

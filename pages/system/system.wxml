@@ -1,0 +1,28 @@
+<!--pages/system/system.wxml-->
+<view class='container'>
+  <view class='pic'>
+    <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com/image/banner4_1@2x.png'></image>
+  </view>
+
+  <view class='col txt'>
+    <text>{{radioItems.partsName}}</text>
+    <text class='price'>{{radioItems.partsEellout}}元/次</text>
+  </view>
+  <view class='explain col'>
+    <view class='title'>服务说明</view>
+    <view class='list'>
+      <view>1. 苹果电脑装双系统是线上服务，需要先支付90元预约费，服务完成后再支付109元服务费
+      </view>
+      <view>2. 服务时间：9:00-20:00</view>
+      <view>3. 服务范围：上海之内</view>
+      <view>4. 预约维修后师傅会主动联系客户，确定具体服务相关事项</view>
+      <view>5. 系统安装属于虚拟服务，支付后不支持退款</view>
+    </view>
+  </view>
+  <view class='btn'>
+    <navigator class='nav' url="../confirm/confirm">
+      <text class='jz'>提交订单</text>
+    </navigator>
+  </view>
+
+</view>

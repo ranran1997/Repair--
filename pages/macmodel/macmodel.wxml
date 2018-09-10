@@ -1,0 +1,9 @@
+<!--pages/macmodel/macmodel.wxml-->
+<view class="container col sp" >
+    <navigator url="../macfault/macfault?serviceid={{item.serviceId}}&title={{item.serviceName}}" wx:for="{{chooseModel}}" wx:key="key">  
+    <view class='father sp'>
+      <image src='{{item.serviceImg}}'></image>
+      <view>{{item.serviceName}}</view><view class='size'>{{item.serviceSpare}}</view>
+    </view>
+  </navigator>
+</view>

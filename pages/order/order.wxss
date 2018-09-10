@@ -1,0 +1,59 @@
+/* pages/order/order.wxss */
+
+.father {
+  padding: 20rpx;
+  border-top:20rpx solid #eee;
+}
+
+.bt {
+  padding: 20rpx 10rpx;
+  border-bottom: 1rpx solid #eee;
+  margin-bottom: 15rpx;
+}
+.finish{
+color:#f83f4d;
+}
+.bt text {
+  font-size: 32rpx;
+}
+
+.details {
+  padding-bottom: 10rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.details image {
+   width: 150rpx; 
+  height: 130rpx;
+  margin-right: 30rpx;
+}
+.describe text {
+  font-size: 35rpx;
+  margin-top: 12rpx;
+}
+
+.price {
+  width: 100%;
+  border-bottom: 15rpx solid #eee;
+}
+
+.price view {
+     margin-top:10rpx;  
+   font-size:35rpx;
+}
+.price .red{
+color:#f83f4d;
+font-weight: bold;
+font-size: 36rpx;
+}
+.contact{
+  display: flex;
+  justify-content: flex-end;
+
+}
+.contact view {
+  border:1rpx solid #eee;
+  margin-top:15rpx;
+  padding:10rpx;
+  font-size:30rpx;
+}

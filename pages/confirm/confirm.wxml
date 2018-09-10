@@ -1,0 +1,55 @@
+<!--pages/confirm/confirm.wxml-->
+<view>
+  <view class='sp line'>
+    {{model}}
+    <text>{{selectColor}}</text>
+  </view>
+  <block wx:for="{{faultArr}}" wx:key="key">
+    <view class='sp line'>
+      {{item}}
+    </view>
+  </block>
+  <view class="sp line price ">
+    预估报价 ：
+    <text>￥{{prices}}.00</text>
+  </view>
+  <view class='row sp address'>
+    <view class='jz city'>上海市</view>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{all}}">
+      <view class='jz district'>{{all[index]}}
+        <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon12_1@2x.png'></image>
+      </view>
+    </picker>
+  </view>
+  <input class='sp line' placeholder='详细地址' bindinput="addressInput">
+  </input>
+  <input class='sp line' placeholder='联系人' bindinput="nameInput">
+  </input>
+  <input class='sp line' placeholder='手机号' bindinput="telInput" maxlength='12' type="number">
+  </input>
+  <view class='row sp gain'>
+    <input class='sp line code' placeholder='验证码' bindinput="codeInput" maxlength='7' type="number">
+    </input>
+    <button class='jz' disabled='{{disabled}}' data-id="2" bindtap="getVerificationCode">{{time}}</button>
+  </view>
+ 
+  <!-- 协议 -->
+  <view class='protocol row'>
+    <image src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon13_1@2x.png"></image>
+    <navigator class='col sp' url="../agreement/agreement">
+      <view>我已阅读并同意
+        <text class='txt'>《一盟快修服务协议》</text>
+      </view>
+    </navigator>
+  </view>
+  <view class='col sp'>
+    <view class='finish' bindtap="save">
+      <view class='jz'>立即下单</view>
+    </view>
+  </view>
+  <!-- 弹出框 -->
+  <view class='col sp prompt' hidden="{{hide}}">
+    <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon_20@2x.png'></image>
+    <view>{{textTitle}}</view>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+<!--pages/phonefault/phonefault.wxml-->
+<view class='container pr'>
+  <view class='problem' wx:if="{{radioItems.length>0}}">
+    <view class='txt'>故障详情</view>
+    <view class="fault bt" wx:for="{{radioItems}}" wx:key="index" bindtap='changeCheckedHandle' data-index="{{index}}">
+      <view class='group bt'>
+        <view>{{item.partsName}}</view>
+        <view class='price'>¥{{item.partsEellout}}</view>
+      </view>
+      <icon class="jz" type="{{item.completed?'success':'circle'}}" bindchange="radioChange" />
+    </view>
+  </view>
+
+  <navigator class='col sp' url="../confirm/confirm">
+    <view class='bottom jz'>
+      <view class='jz'>下一步</view>
+    </view>
+  </navigator>
+</view>

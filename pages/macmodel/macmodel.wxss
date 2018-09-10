@@ -1,0 +1,31 @@
+
+.container{
+  height:100%;
+  padding-top:15rpx;
+  background-color: #fff;
+}
+navigator{
+ width:94%;
+ margin-bottom:20rpx;
+}
+.father {
+  width: 100%;
+  height: 120rpx;
+  border: 1rpx solid #e6e6e6;
+  border-radius: 10rpx;
+  background-color: #fff;
+}
+
+.father image {
+  width: 144rpx;
+  height: 90rpx;
+  margin-left: 5rpx;
+}
+.father view{
+  margin-left:14rpx;
+}
+.size{
+  color:#b2b1b1;
+  font-size:30rpx;
+}
+

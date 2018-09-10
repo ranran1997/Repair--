@@ -1,0 +1,17 @@
+/* pages/agreement/agreement.wxss */
+.container{
+border-top:1rpx solid #f0f0f0;
+padding:60rpx 40rpx 0;
+line-height: 30rpx;
+}
+.jz{
+  font-size: 40rpx;
+line-height: 40rpx;
+padding-bottom:40rpx;
+border-bottom:5rpx solid #f0f0f0;
+}
+.txt{
+line-height: 52rpx;
+padding-top:20rpx;
+margin-bottom:60rpx;
+}

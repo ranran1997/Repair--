@@ -1,0 +1,33 @@
+/* pages/fault/fault.wxss */
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.logo {
+  width: 100%;
+  height: 300rpx;
+}
+
+.logo image {
+  width: 161rpx;
+  height: 189rpx;
+  border-radius: 50%;
+}
+
+.all {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 24rpx;
+  background-color: #fff;
+}
+
+.all navigator {
+  border-radius: 18rpx;
+  width: 43%;
+  height: 100rpx;
+  border: 1rpx solid #ccc;
+  margin: 3%;
+}

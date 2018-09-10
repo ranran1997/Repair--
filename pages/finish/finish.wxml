@@ -1,0 +1,7 @@
+<!--pages/finish/finish.wxml-->
+<view class='container col jz'>
+  <image src='https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon29_1x.png'></image>
+  <text>恭喜您，下单成功</text>
+  <view class='wait'>感谢选择一盟快修，工程师将马上联系您</view>
+  <view class='jz end' bindtap='back'>返回首页</view>
+</view>

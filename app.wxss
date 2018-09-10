@@ -1,0 +1,156 @@
+/**app.wxss**/
+
+page {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 34rpx;
+  padding: 0;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+/* 灰色间隙 */
+
+.gap {
+  height: 20rpx;
+  width: 100%;
+  /* background-color: #e6e6e6;  */
+  background-color: #f0f0f0;
+}
+
+.gap2 {
+  height: 20rpx;
+  width: 100%;
+  background-color: #fff;
+}
+
+/* 居中 */
+
+.jz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 仅垂直居中 */
+
+.cz {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+/* 仅水平居中 */
+
+.sp {
+  display: flex;
+  align-items: center;
+}
+
+/* 横排显示 */
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* 纵排显示 */
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 两端对齐 */
+
+.bt {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 环形布局 */
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .wrap view{
+  width: 25%;
+  height: 100rpx;
+  border: 1rpx solid #ccc;
+  margin: 10px;
+  text-align: center;
+} */
+
+/* 定位 */
+
+.pr {
+  position: relative;
+}
+
+/* 清楚浮动 */
+
+.clearfix {
+  overflow: hidden;
+  _zoom: 1;
+}
+
+/* 超过行省略号 */
+
+.el {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 超过1字省略号 */
+
+.text_slice {
+  /* width:300rpx; */
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 缩进 */
+
+.kg {
+  text-indent: 2em;
+}
+
+/* 单个下方固定按钮 introduceadd*/
+
+.fixb {
+  position: fixed;
+  left: 0;
+  height: 150rpx;
+  bottom: 0rpx;
+  background-color: #fff;
+  padding-top: 30rpx;
+  width: 100%;
+  color: #fff;
+}
+
+.fixb view {
+  width: 690rpx;
+  height: 80rpx;
+  background-color: #000;
+}
+
+.reset-btn {
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}

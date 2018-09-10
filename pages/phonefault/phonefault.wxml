@@ -1,0 +1,31 @@
+<!--pages/phonefault/phonefault.wxml-->
+<view class='container pr'>
+  <!-- 选择颜色 -->
+  <view class='choice col'>
+    <view class='txt'>选择颜色</view>
+    <view class='color wrap'>
+      <block wx:for="{{color}}" wx:key="key">
+        <view class='jz pr' bindtap="chooseColor" id="{{index}}">{{item.serviceName}}
+          <image class="img" src="https://ym-program.oss-cn-shanghai.aliyuncs.com/image/icon8_1@2x.png" wx:if="{{item.selectImage==true}}"></image>
+        </view>
+      </block>
+    </view>
+  </view>
+  <!-- 故障详情 -->
+  <view class='problem' wx:if="{{radioItems.length>0}}">
+    <view class='txt'>故障详情</view>
+    <view class="fault bt" wx:for="{{radioItems}}" wx:key="index" bindtap='changeCheckedHandle' data-index="{{index}}">
+      <view class='group bt'>
+        <view>{{item.partsName}}</view>
+        <view class='price'>¥{{item.partsEellout}}</view>
+      </view>
+      <icon class="jz" type="{{item.completed?'success':'circle'}}" bindchange="radioChange" />
+    </view>
+  </view>
+
+  <navigator class='col sp' url="../confirm/confirm">
+    <view class='bottom jz'>
+      <view class='jz'>下一步</view>
+    </view>
+  </navigator>
+</view>
